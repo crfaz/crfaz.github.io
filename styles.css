@@ -1,0 +1,25 @@
+body{
+    
+    background-color: aquamarine;
+    display: block;
+    justify-content: center;
+
+}
+
+.head {
+    color:blueviolet;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:xx-large
+}
+
+.button {
+    background-color: blue;
+
+}
+
+.button:hover {
+    background-color: blueviolet;
+    transition: .3 ease all;
+    transform: translateY(-1px);
+}
